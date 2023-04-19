@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reg_style.css">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="container">
+        <table class="table-class">
+            <caption>Registration Form</caption>
+            <form action="">
+                <tbody>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" placeholder="First name"></td>
+                        <td><input type="text" placeholder="Last name"></td>
+                    </tr>
+                    <tr>
+                        <td>Company</td>
+                        <td colspan="2"><input type="text" id="company" placeholder="Company name"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td colspan="2"><input type="text" id="email" placeholder="Enter your email"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td><input type="text" size="5px" placeholder="Area Code"></td>
+                        <td><input type="text" placeholder="Enter Your Number"></td>
+                    </tr>
+                    <tr>
+                        <td>Subject</td>
+                        <td colspan="2"><select name="" id="subject-dropdown">
+                            <option value="">Choose your subject</option>
+                            <option value="">Computer Science</option>
+                            <option value="">Mechanical Engineering</option>
+                            <option value="">Civil Engineering</option>
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td><label for="beginner"> Are you a beginner?</label></td>
+                    </tr>
+                    <tr>
+                        <td class="beginner-radio"><input type="radio" name="beginner" id="">
+                            <label for="beginner">Yes</label>
+                        <input type="radio" name="beginner" id="">
+                            <label for="beginner">No</label>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><button type="submit" id="submit">Register</button></td>
+                    </tr>
+                </tbody>
+
+            </form>
+        </table>
+
+    </div>
+    
+</body>
+</html>
